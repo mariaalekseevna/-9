@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Playfair+Display&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Minimo — блог о жизни</title>
+</head>
+<body>
+
+    <!-- Шапка -->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">Minimo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Лайфстайл</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Фотодневник</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Музыка</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Путешествия</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+ <!-- Слайдер -->
+<div class="container slider" style="height: 450px; max-height: 450px; overflow: hidden; padding: 0; border-radius: 10px; margin-top: 20px; margin-bottom: 60px;">
+    <div id="slider" class="carousel slide carousel-fade" data-ride="carousel" style="height: 450px; max-height: 450px;">
+        <ol class="carousel-indicators">
+            <li data-target="#slider" data-slide-to="0" class="active"></li>
+            <li data-target="#slider" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner" style="height: 450px; max-height: 450px; overflow: hidden;">
+            <div class="carousel-item active" style="height: 450px; max-height: 450px;">
+                <img src="img/закат.jpg" style="height: 450px; width: 100%; object-fit: cover; object-position: center; display: block;" alt="Закат">
+            </div>
+            <div class="carousel-item" style="height: 450px; max-height: 450px;">
+                <img src="img/вождение.jpg" style="height: 450px; width: 100%; object-fit: cover; object-position: center; display: block;" alt="Вождение">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">Назад</span>
+        </a>
+        <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="sr-only">Вперёд</span>
+        </a>
+    </div>
+</div>
+
+    <!-- Главный пост -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="single-post">
+                    <h3 class="post-category">Фотодневник</h3>
+                    <h2 class="post-title"><a href="#">Идеальные выходные за городом</a></h2>
+                    <p>Иногда так хочется сбежать от городской суеты. Дорога, закат, любимая музыка в наушниках — и вот уже мир кажется немного добрее. В этом посте я делюсь моментами, которые помогают мне перезагрузиться и найти вдохновение в простых вещах.</p>
+                    <p><a href="#" class="link-more">Оставить комментарий</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Карточки -->
+    <div class="grid-posts">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="img/кот.jpg" class="card-img-top" alt="Кот">
+                        <div class="card-body">
+                            <h3 class="post-category">Лайфстайл</h3>
+                            <h5 class="post-title">Мой кот — главный в доме</h5>
+                            <p class="card-text">Каждый день этот пушистый комок создаёт уют и напоминает, что счастье — в мелочах.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="img/свое фото.jpg" class="card-img-top" alt="Селфи">
+                        <div class="card-body">
+                            <h3 class="post-category">Лайфстайл</h3>
+                            <h5 class="post-title">Вечерний образ</h5>
+                            <p class="card-text">Белое худи, любимые наушники и мягкий свет — идеальный вечер для себя.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="img/небо.jpg" class="card-img-top" alt="Небо">
+                        <div class="card-body">
+                            <h3 class="post-category">Фотодневник</h3>
+                            <h5 class="post-title">Небо, которое вдохновляет</h5>
+                            <p class="card-text">Иногда достаточно просто поднять голову, чтобы увидеть что-то прекрасное.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="img/еще небо.jpg" class="card-img-top" alt="Небо 2">
+                        <div class="card-body">
+                            <h3 class="post-category">Путешествия</h3>
+                            <h5 class="post-title">Дорога в никуда</h5>
+                            <p class="card-text">Путешествия начинаются с желания увидеть что-то новое за горизонтом.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="img/мое еще фото .jpg" class="card-img-top" alt="Ещё фото">
+                        <div class="card-body">
+                            <h3 class="post-category">Лайфстайл</h3>
+                            <h5 class="post-title">Моменты, которые хочется запомнить</h5>
+                            <p class="card-text">Иногда самые обычные дни становятся самыми тёплыми воспоминаниями.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Кнопка -->
+    <div class="container">
+        <div class="row">
+            <div class="col text-center after-posts">
+                <button type="button" class="btn btn-outline-secondary load-more">Показать ещё</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Форма -->
+    <section class="signup">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3 class="text-center">Подпишитесь на новости!</h3>
+                    <form>
+                        <div class="form-row">
+                            <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 form-input">
+                                <input type="email" class="form-control" placeholder="Введите ваш email" required>
+                                <button class="btn" type="submit">&#10146;</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <div class="container">
+            <div class="d-sm-flex justify-content-between">
+                <div class="footer-left">
+                    <a href="#">Условия использования</a>
+                    <a href="#">Конфиденциальность</a>
+                </div>
+                <div class="footer-right">
+                    <span>Подписаться</span>
+                    <a href="#"><i class="fab fa-vk"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+
+</body>
+</html>
